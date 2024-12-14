@@ -1,0 +1,456 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+#headerContainer {
+    width: 1231px;
+    padding: 12px 24px;
+    background: #F7F4FF;
+    margin-left: auto;
+    margin-bottom: 142px;
+}
+
+#headerLogoDiv {
+    padding: 13.489px;
+    margin-right: 277.5px;
+    vertical-align: middle;
+}
+
+#headerNavigation {
+    vertical-align: middle;
+}
+
+#aboutAnchour,
+#offerAnchour,
+#halpAnchour {
+    color: #323232;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 20px;
+}
+
+#contactAnchour {
+    color: #8E26C0;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+#ContactButton {
+    color: #8E26C0;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 1px solid #8E26C0;
+    margin-left: 277.5px;
+    vertical-align: middle;
+}
+
+#headerLogoDiv {
+    display: inline-block;
+}
+
+#headerNavigation {
+    display: inline-block;
+}
+
+#contactUsDiv {
+    display: inline-block;
+}
+
+/* main================================================ */
+
+#mainContainer {
+    max-width: 1380px;
+    width: 100%;
+    margin: auto;
+}
+
+#imgDiv {
+    display: inline-block;
+    max-width: 610px;
+    width: 100%;
+    height: 458px;
+    vertical-align: middle;
+}
+
+#mainContainersTextes {
+    display: inline-block;
+    max-width: 644px;
+    width: 100%;
+    vertical-align: middle;
+    margin-left: 45px;
+}
+
+h3 {
+    color: #000;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#loremIpsum {
+    color: #535862;
+    font-size: 20px;
+    font-weight: 400;
+    max-width: 575px;
+    width: 100%;
+    margin: 16px 0px;
+}
+
+ol {
+    color: #000;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    padding-left: 20px;
+}
+
+li {
+    margin-top: 12px;
+}
+
+/* main second section -----------=================================================================== */
+
+#contactInfo {
+    margin-top: 83px;
+}
+
+h2 {
+    color: #000;
+    font-size: 56px;
+    font-weight: 700;
+    text-align: center;
+}
+
+#secondSectionLoremText {
+    color: #535862;
+    font-size: 20px;
+    font-weight: 400;
+    max-width: 905px;
+    width: 100%;
+    margin: 18px auto 28px;
+    text-align: center;
+}
+
+#registrationSection {
+    max-width: 1221px;
+    width: 100%;
+    height: 536px;
+    padding: 32px;
+    border-radius: 16px;
+    background-color: #F7F4FF;
+}
+
+#InfoDiv {
+    max-width: 403px;
+    width: 100%;
+    height: 474px;
+    padding: 20px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#frameAdressDiv,
+#framePhoneDiv,
+#frameMessageDiv {
+    width: 56px;
+    height: 56px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#adressDiv,
+#phoneDiv,
+#emailDiv {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 16px;
+}
+
+#labelAdress,
+#labelOfNumber,
+#labelEmail {
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#forExsampleAdress,
+#forExsampleNumber,
+#forExsampleEmail {
+    color: #6D5F8B;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 6px;
+}
+
+#frameMarginer {
+    margin: 24px 0px;
+}
+
+#secondSection {
+    max-width: 725px;
+    width: 100%;
+    height: 474px;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #F7F4FF;
+    margin-left: 24px;
+}
+
+h4 {
+    color: #1B003D;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 44px;
+    letter-spacing: 1.28px;
+    text-transform: uppercase;
+}
+
+#fullNameOfLabel {
+    display: block;
+    margin: 16px 0px 8px;
+    color: #1B003D;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+#fullName,
+#emailInput {
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 1px solid #8E26C0;
+    max-width: 730px;
+    width: 100%;
+}
+
+::placeholder {
+    color: #6D5F8B;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+#emailLabel {
+    display: block;
+    margin: 24px 0px 8px;
+    color: #1B003D;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+#writeSomething {
+    resize: none;
+    max-width: 730px;
+    width: 100%;
+    height: 166px;
+    padding: 12px 16px;
+    border-radius: 16px;
+    border: 1px solid #8E26C0;
+    margin: 24px 0px;
+}
+
+#submitButton {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 140px;
+    padding: 12px 24px;
+    border-radius: 8px;
+    background: #8E26C0;
+    height: 48px;
+
+}
+
+#submit {
+    text-align: right;
+}
+
+
+/* =======================================================footer============================================= */
+
+#footerColor {
+    margin-top: 163px;
+    background: #53389E;
+    padding: 64px 0px 48px 0px;
+}
+
+#footerContainer {
+    max-width: 1380px;
+    width: 100%;
+    margin: auto;
+}
+
+#footerMenu {
+    padding: 0px 32px;
+
+}
+
+#footerFirstColumn {
+    max-width: 176px;
+    width: 100%;
+    display: inline-block;
+}
+
+#footerSecondColumn,
+#footerThirdColumn,
+#footerFourthColumn,
+#footerFifthColumn,
+#footerSixthColumn {
+    max-width: 176px;
+    width: 100%;
+    display: inline-block;
+    margin-left: 32px;
+}
+
+#Product,
+#Company,
+#Resources,
+#Cases,
+#Social,
+#Legal {
+    color: #D6BBFB;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    display: block;
+    margin-bottom: 16px;
+}
+
+#Overview,
+#About,
+#Blog,
+#Startups,
+#Twitter,
+#Terms {
+    color: #E9D7FE;
+    font-weight: 600;
+    line-height: 24px;
+    font-size: 16px;
+    display: block;
+}
+
+
+#tutorial,
+#Pricing,
+#Releases,
+#Careers,
+#Press,
+#News,
+#Media,
+#Contact,
+#Newsletter,
+#Events,
+#Help,
+#Tutorials,
+#Support,
+#Enterprice,
+#Government,
+#Saas,
+#Markertplaces,
+#Ecommerce,
+#LinkedIn,
+#Facebook,
+#Github,
+#AngelList,
+#Dribble,
+#Privacy,
+#Cookies,
+#Licenses,
+#Settings,
+#Contact {
+    color: #E9D7FE;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    display: block;
+    margin-top: 12px;
+}
+
+#Features {
+    color: #E9D7FE;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    display: block;
+    margin: 12px 0px;
+}
+
+#Solutions {
+    color: #E9D7FE;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+#newButton {
+    color: #FFF;
+    text-align: center;
+    font-weight: 500;
+    line-height: 18px;
+    border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.30);
+    background: rgba(255, 255, 255, 0.10);
+    margin-left: 8px;
+    width: 38px;
+    height: 22px;
+}
+
+/*---------------------------------- second section footer------------------------------------------------------------------- */
+
+#FooterSecondSection {
+
+    margin-top: 64px;
+    max-width: 1280px;
+    width: 100%;
+    height: 64px;
+    padding: 32px 32px 0px 32px;
+    border-top: 1px solid #7F56D9;
+}
+
+#logoFooter {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#UntitledDiv {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+
+}
+
+#Untitled {
+    color: #FFF;
+    font-weight: 800;
+    font-size: 22px;
+}
+
+#finaleLeftFooter {
+    vertical-align: middle;
+    display: inline-block;
+    max-width: 955px;
+    width: 100%;
+}
+
+#finaleRightFooter {
+    vertical-align: middle;
+    display: inline-block;    
+}
+
+#reserved {
+    color: #D6BBFB;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
